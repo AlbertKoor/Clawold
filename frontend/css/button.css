@@ -1,0 +1,19 @@
+button {
+    justify-content: center;
+    padding: 20px;
+    background-color: #4dabf7;
+    font-weight: bold;
+    color: white;
+    transition: 500ms;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+}
+
+
+button:hover {
+    background-color: #1268f1;
+    cursor: pointer;
+    transition: 500ms;
+}
