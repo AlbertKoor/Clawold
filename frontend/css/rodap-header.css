@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/*CABEÇALHO*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 1200px;
+    height: 100px;
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+svg {
+    transition: 500ms;
+}
+
+svg:hover {
+    color: #1268f1;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+header .logo:hover {
+    cursor: default;
+}
+
+footer .logo:hover {
+    cursor: default;
+}
+
+.first-sec svg:hover {
+    cursor: default;
+}
+
+
+/*RODAPÉ*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 1200px;
+    height: 100px;
+    padding: 25px;
+    font-weight: bold;
+}
